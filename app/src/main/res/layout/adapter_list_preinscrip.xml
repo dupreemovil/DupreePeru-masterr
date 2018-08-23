@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:card_view="http://schemas.android.com/tools">
+
+    <android.support.v7.widget.CardView
+
+        card_view:cardBackgroundColor="@color/colorPrimaryDark"
+        card_view:cardCornerRadius="6dp"
+        card_view:cardElevation="10dp"
+        card_view:cardUseCompatPadding="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.20"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="top|center_horizontal"
+                android:padding="5dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imagen"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/registrado"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="@color/gray_4"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@color/white"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_weight="0.80"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/azulDupree"
+                    android:text="AUTORIZADO"/>
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/gray_6"
+                    android:text="MARIA FERNANDA MONTOYA LEON"/>
+
+                <TextView
+                    android:id="@+id/tvCedula"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="12sp"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/gray_6"
+                    android:text="Cédula: 123098567"/>
+
+                <TextView
+                    android:id="@+id/tvCelular"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="12sp"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/gray_6"
+                    android:text="Celular: 31993311614"/>
+
+                <TextView
+                    android:id="@+id/tvfechaNac"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="12sp"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/gray_6"
+                    android:text="FN: 08/2/78"/>
+
+                <TextView
+                    android:id="@+id/tvCiudad"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="12sp"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/gray_6"
+                    android:text="Ciudad: BOGOTA"/>
+
+                <TextView
+                    android:id="@+id/tvBarrio"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="12sp"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/gray_6"
+                    android:text="Barrio: VILLAS DE GRANADA"/>
+
+                <TextView
+                    android:id="@+id/tvfechaReg"
+                    android:visibility="visible"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="12sp"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/gray_6"
+                    android:text="FR: 08/2/78"/>
+
+                <TextView
+                    android:id="@+id/tvObservacion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="12sp"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/gray_6"
+                    android:text="OBSERVACION: Esta asesora esta pendiente en vista de que tal cosa y lo otro"/>
+
+            </LinearLayout>
+
+            <!--LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="0.25"
+                android:layout_width="0dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/swtRedimir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvPuntos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/gray_5"
+                    android:text="300 pts"/>
+
+                <TextView
+                    android:id="@+id/tvCantidad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/gray_5"
+                    android:text="N. 2"/>
+
+
+            </LinearLayout-->
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:orientation="vertical"
+    android:paddingTop="0dp"
+    android:paddingEnd="5dp"
+    android:paddingStart="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/transparent"
+    xmlns:card_view="http://schemas.android.com/tools">
+
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/cardViewBackGround"
+        card_view:cardCornerRadius="6dp"
+        card_view:cardElevation="10dp"
+        card_view:cardUseCompatPadding="true"
+        android:layout_margin="2.5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_margin="3dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="0.9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+
+                            android:layout_margin="0.5dp"
+                            card_view:cardCornerRadius="6dp"
+                            card_view:cardElevation="10dp"
+                            card_view:cardUseCompatPadding="true"
+                            android:layout_weight="0.65"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:background="@color/white"
+                                android:padding="5dp"
+                                android:orientation="vertical"
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:id="@+id/tvNameRet"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textSize="15sp"
+                                    android:maxLines="1"
+                                    android:textColor="@color/azulDupree"
+                                    android:textAllCaps="true"
+
+                                    android:gravity="center_horizontal"
+                                    android:text="VILLALOBOS MUÑOS PAOLA ANDREA"/>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+
+                            android:layout_margin="0.5dp"
+                            card_view:cardCornerRadius="6dp"
+                            card_view:cardElevation="10dp"
+                            card_view:cardUseCompatPadding="true"
+                            android:layout_weight="0.6"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:background="@color/white"
+                                android:padding="5dp"
+                                android:orientation="vertical"
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:id="@+id/tvCedulaRet"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="normal"
+                                    android:textSize="14sp"
+                                    android:textAlignment="textStart"
+                                    android:maxLines="1"
+                                    android:textColor="@color/gray_6"
+                                    android:text="C.I.: 156.345.678"/>
+
+                                <TextView
+                                    android:id="@+id/tvTelefonoRet"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="normal"
+                                    android:textSize="14sp"
+                                    android:textAlignment="textStart"
+                                    android:maxLines="1"
+                                    android:textColor="@color/gray_6"
+                                    android:text="Telf.: 31993311614"/>
+
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+
+                        <android.support.v7.widget.CardView
+
+                            android:layout_margin="0.5dp"
+                            card_view:cardCornerRadius="6dp"
+                            card_view:cardElevation="10dp"
+                            card_view:cardUseCompatPadding="true"
+                            android:layout_weight="0.4"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:background="@color/white"
+                                android:padding="5dp"
+
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:id="@+id/tvAreaRef"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="normal"
+                                    android:textSize="14sp"
+                                    android:textAlignment="textStart"
+                                    android:maxLines="1"
+                                    android:textColor="@color/gray_6"
+                                    android:text="Area: BOG2"/>
+
+                                <TextView
+                                    android:id="@+id/tvZonaRef"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="normal"
+                                    android:textSize="14sp"
+                                    android:textAlignment="textStart"
+                                    android:maxLines="1"
+                                    android:textColor="@color/gray_6"
+                                    android:text="Zona: 142"/>
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <android.support.v7.widget.CardView
+                    android:layout_margin="0.5dp"
+                    card_view:cardCornerRadius="6dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true"
+
+                    android:layout_weight="0.1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <ImageButton
+                        android:id="@+id/imgB_Call"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:tint="@color/green_check"
+                        android:src="@drawable/ic_call_white_24dp"/>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <android.support.v7.widget.CardView
+
+                        android:layout_margin="0.5dp"
+                        card_view:cardCornerRadius="6dp"
+                        card_view:cardElevation="10dp"
+                        card_view:cardUseCompatPadding="true"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_margin="5dp"
+                            android:weightSum="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:textStyle="normal"
+                                android:textSize="14sp"
+                                android:textColor="@color/azulDupree"
+                                android:text="NÚMERO PEDIDOS: "/>
+
+                            <TextView
+                                android:id="@+id/tvNumPedidosRet"
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:textStyle="normal"
+
+                                android:textSize="14sp"
+                                android:textColor="@color/gray_6"
+                                android:text="22"/>
+                        </LinearLayout>
+
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <android.support.v7.widget.CardView
+                        android:layout_margin="0.5dp"
+                        card_view:cardCornerRadius="6dp"
+                        card_view:cardElevation="10dp"
+                        card_view:cardUseCompatPadding="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_margin="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:textStyle="normal"
+                                android:textSize="13sp"
+                                android:textColor="@color/azulDupree"
+                                android:text="NETO:"/>
+
+                            <TextView
+                                android:id="@+id/tvNetoRet"
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:textStyle="normal"
+                                android:textSize="14sp"
+                                android:textColor="@color/gray_6"
+                                android:text="$221,212"/>
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <android.support.v7.widget.CardView
+                        android:layout_margin="0.5dp"
+                        card_view:cardCornerRadius="6dp"
+                        card_view:cardElevation="10dp"
+                        card_view:cardUseCompatPadding="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_margin="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:textStyle="normal"
+                                android:textSize="13sp"
+                                android:textColor="@color/azulDupree"
+                                android:text="SALDO:"/>
+                            <TextView
+                                android:id="@+id/tvSaldoRet"
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:textStyle="normal"
+                                android:textSize="14sp"
+                                android:textColor="@color/gray_6"
+                                android:text="$167,220"/>
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_margin="0.5dp"
+                        card_view:cardCornerRadius="6dp"
+                        card_view:cardElevation="10dp"
+                        card_view:cardUseCompatPadding="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_margin="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:textStyle="normal"
+                                android:textSize="13sp"
+                                android:textColor="@color/azulDupree"
+                                android:text="CUPO:"/>
+                            <TextView
+                                android:id="@+id/tvCupoRet"
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:textStyle="normal"
+                                android:textSize="14sp"
+                                android:textColor="@color/gray_6"
+                                android:text="$840,000"/>
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_margin="0.5dp"
+                        card_view:cardCornerRadius="6dp"
+                        card_view:cardElevation="10dp"
+                        card_view:cardUseCompatPadding="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_margin="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:textStyle="normal"
+                                android:textSize="13sp"
+                                android:textColor="@color/azulDupree"
+                                android:text="CARTERA:"/>
+                            <TextView
+                                android:id="@+id/tvCarteraRet"
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:textStyle="normal"
+                                android:textSize="14sp"
+                                android:textColor="@color/gray_6"
+                                android:text="X"/>
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_margin="0.5dp"
+                        card_view:cardCornerRadius="6dp"
+                        card_view:cardElevation="10dp"
+                        card_view:cardUseCompatPadding="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_margin="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:textStyle="normal"
+                                android:textSize="13sp"
+                                android:textColor="@color/azulDupree"
+                                android:text="CUPO:"/>
+
+                            <TextView
+                                android:id="@+id/tvRCupoRet"
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:textStyle="normal"
+                                android:textSize="14sp"
+                                android:textColor="@color/gray_6"
+                                android:text=""/>
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_margin="0.5dp"
+                        card_view:cardCornerRadius="6dp"
+                        card_view:cardElevation="10dp"
+                        card_view:cardUseCompatPadding="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_margin="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:textStyle="normal"
+                                android:textSize="13sp"
+                                android:textColor="@color/azulDupree"
+                                android:text="CODE:"/>
+                            <TextView
+                                android:id="@+id/tvCodeRet"
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:textStyle="normal"
+                                android:textSize="14sp"
+                                android:textColor="@color/gray_6"
+                                android:text=""/>
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_margin="0.5dp"
+                        card_view:cardCornerRadius="6dp"
+                        card_view:cardElevation="10dp"
+                        card_view:cardUseCompatPadding="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_margin="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:textStyle="normal"
+                                android:textSize="13sp"
+                                android:textColor="@color/azulDupree"
+                                android:text="MONTO MÍNIMO:"/>
+                            <TextView
+                                android:id="@+id/tvMontoMinRet"
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:textStyle="normal"
+                                android:textSize="14sp"
+                                android:textColor="@color/gray_6"
+                                android:text=""/>
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_margin="0.5dp"
+                        card_view:cardCornerRadius="6dp"
+                        card_view:cardElevation="10dp"
+                        card_view:cardUseCompatPadding="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_margin="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:textStyle="normal"
+                                android:textSize="13sp"
+                                android:textColor="@color/azulDupree"
+                                android:text="BLOQUEO:"/>
+                            <TextView
+                                android:id="@+id/tvBloqueoRet"
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:textStyle="normal"
+                                android:textSize="14sp"
+                                android:textColor="@color/gray_6"
+                                android:text=""/>
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_margin="0.5dp"
+                        card_view:cardCornerRadius="6dp"
+                        card_view:cardElevation="10dp"
+                        card_view:cardUseCompatPadding="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_margin="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:textStyle="normal"
+                                android:textSize="14sp"
+                                android:textColor="@color/azulDupree"
+                                android:text="MÍNIMO PÚBLICO:"/>
+
+                            <TextView
+                                android:id="@+id/tvMinPunlicoRet"
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:textStyle="normal"
+                                android:textSize="14sp"
+                                android:textColor="@color/gray_6"
+                                android:text=""/>
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_margin="0.5dp"
+                        card_view:cardCornerRadius="6dp"
+                        card_view:cardElevation="10dp"
+                        card_view:cardUseCompatPadding="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_margin="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:textStyle="normal"
+                                android:textSize="14sp"
+                                android:textColor="@color/azulDupree"
+                                android:text="TOTAL:"/>
+                            <TextView
+                                android:id="@+id/tvTotalPublicoRet"
+                                android:layout_weight="0.5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_horizontal"
+                                android:textStyle="normal"
+                                android:textSize="14sp"
+                                android:textColor="@color/gray_6"
+                                android:text="$234,000"/>
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

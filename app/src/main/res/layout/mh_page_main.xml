@@ -1,0 +1,162 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pageMainBack"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_alignParentTop="true"
+    android:background="@color/background"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "0dp"
+        android:layout_weight="0.40"
+        android:orientation = "horizontal">
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/mh_slider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+        <com.daimajia.slider.library.Indicators.PagerIndicator
+            android:id="@+id/custom_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "0dp"
+        android:layout_weight="0.60"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation = "vertical"
+        android:weightSum="1"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height= "0dp"
+            android:layout_weight="0.50"
+            android:weightSum="1"
+            android:orientation="horizontal"
+            >
+            <!--LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.50"
+                android:layout_height="match_parent"
+                android:orientation = "vertical"
+                android:weightSum="1"
+                android:padding="5dp"
+                -->
+                <!--ImageView
+                    android:id="@+id/imgVuelveteAsesora"
+                    style="@style/imgView_Main"
+                    tools:ignore="ContentDescription"
+                    android:background="@drawable/img_main_vuelvete_asesora"
+                     />
+                <TextView
+                    style="@style/textView_Main"
+                    android:text="@string/vuelvete_asesora"/-->
+                <android.support.v7.widget.CardView
+                    card_view:cardBackgroundColor="@color/colorPrimaryDark"
+                    card_view:cardCornerRadius="6dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.50">
+
+                    <ImageView
+                        android:id="@+id/imgCamp_A"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/img_main_vuelvete_asesora"
+                        android:scaleType="fitXY"/>
+
+                    <TextView
+                        android:id="@+id/txtNameCamp_A"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Campaña 12"
+                        android:textAlignment="center"
+                        android:layout_gravity="bottom"
+                        android:background="@color/transp_PrimaryDark"
+                        android:textColor="@color/gray_2"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+                </android.support.v7.widget.CardView>
+            <!--/LinearLayout-->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.50"
+                android:layout_height="match_parent"
+                android:orientation = "vertical"
+                android:weightSum="1"
+                android:padding="5dp"
+                >
+                <ImageView
+                    android:id="@+id/imgAtencionCliente"
+                    style="@style/imgView_Main"
+                    tools:ignore="ContentDescription"
+                    android:background="@drawable/img_main_solicita_asesora"/>
+                <TextView
+                    style="@style/textView_Main"
+                    android:text="@string/servicio_al_cliente"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height= "0dp"
+            android:layout_weight="0.50"
+            android:weightSum="1"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.50"
+                android:layout_height="match_parent"
+                android:orientation = "vertical"
+                android:weightSum="1"
+                android:padding="5dp"
+                >
+                <ImageView
+                    android:id="@+id/imgCatalogos"
+                    style="@style/imgView_Main"
+                    tools:ignore="ContentDescription"
+                    android:background="@drawable/img_main_catalogos"/>
+                <TextView
+                    style="@style/textView_Main"
+                    android:text="@string/catalogos"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.50"
+                android:layout_height="match_parent"
+                android:orientation = "vertical"
+                android:weightSum="1"
+                android:padding="5dp"
+                >
+                <ImageView
+                    android:id="@+id/imgLogin"
+                    style="@style/imgView_Main"
+                    tools:ignore="ContentDescription"
+                    android:background="@drawable/img_main_login"/>
+                <TextView
+                    style="@style/textView_Main"
+                    android:text="@string/iniciar_sesion"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

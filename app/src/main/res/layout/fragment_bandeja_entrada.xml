@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dupreinca.dupree.mh_fragments_menu.Bandeja_Entrada_Fragment">
+
+
+    <LinearLayout
+        android:id="@+id/mh_activity_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:orientation="vertical"
+        tools:context=".MH_Activity_FilesDetail">
+
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/ctx"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.design.widget.CoordinatorLayout
+                android:id="@+id/ContainerAll_ActDoor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgCamara"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:visibility="gone" />
+
+                <android.support.v4.widget.SwipeRefreshLayout
+                    android:id="@+id/RefreshFilesDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rcvFilesDetail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </android.support.v4.widget.SwipeRefreshLayout>
+            </android.support.design.widget.CoordinatorLayout>
+
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fabDelete"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="@dimen/fab_margin"
+
+
+                app:srcCompat="@drawable/ic_delete_white_24dp" />
+        </android.support.design.widget.CoordinatorLayout>
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
+
+
